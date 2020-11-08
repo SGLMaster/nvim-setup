@@ -29,9 +29,14 @@ Plug 'morhetz/gruvbox'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
-" 
+" C/C++
+Plug 'jackguo380/vim-lsp-cxx-highlight'
+
 Plug 'dart-lang/dart-vim-plugin'
+
 Plug 'udalov/kotlin-vim'
+
+Plug 'vim-syntastic/syntastic'
 
 call plug#end()
 
@@ -54,6 +59,19 @@ let g:gruvbox_contrast_dark='hard'
 let g:gruvbox_invert_selection='0'
 colorscheme gruvbox
 set background=dark
+
+" c++ syntax highlighting
+let g:cpp_class_scope_highlight = 1
+let g:cpp_member_variable_highlight = 1
+let g:cpp_class_decl_highlight = 1
+
+" c++ linting
+let g:syntastic_cpp_checkers = ['cpplint']
+let g:syntastic_c_checkers = ['cpplint']
+let g:syntastic_cpp_cpplint_exec = 'cpplint'
+" The following two lines are optional. Configure it to your liking!
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
 
 " indentLine
 let g:indentLine_fileTypeExclude = ['text', 'sh', 'help', 'terminal']
