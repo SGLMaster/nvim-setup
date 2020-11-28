@@ -86,7 +86,8 @@ vmap <leader>f  <Plug>(coc-format-selected)
 nmap <leader>f  <Plug>(coc-format-selected)
 
 " FZF
-nnoremap <C-p> :GFiles<CR>
+nnoremap <leader>gf :GFiles<CR>
+nnoremap <leader>gb :GBranches<CR>
 
 " IncSearch 
 map /  <Plug>(incsearch-forward)
