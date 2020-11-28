@@ -94,6 +94,9 @@ map ?  <Plug>(incsearch-backward)
 let g:incsearch#auto_nohlsearch = 1
 
 " GitGutter 
+nmap ) <Plug>(GitGutterNextHunk)
+nmap ( <Plug>(GitGutterPrevHunk)
+let g:gitgutter_enabled = 1
 set updatetime=250
 
 " COC COC COC COC COC COC COC COC COC COC  
