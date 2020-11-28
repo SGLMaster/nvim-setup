@@ -15,7 +15,7 @@ set shiftwidth=2
 
 nnoremap gb :ls<CR>:b<Space>
 
-call plug#begin("~/.local/share/nvim/site/plugged")
+call plug#begin("c:/Users/Willians/AppData/Local/nvim-data/site/plugged")
 
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'  " Temas para airline
