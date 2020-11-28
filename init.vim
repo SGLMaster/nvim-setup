@@ -1,6 +1,7 @@
 let mapleader = ','
 
 imap kj <ESC>
+imap jk <ESC>
 set number
 set relativenumber
 
