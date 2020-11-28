@@ -13,8 +13,6 @@ set softtabstop=2
 " when indenting with '>', use 2 spaces width
 set shiftwidth=2
 
-nnoremap gb :ls<CR>:b<Space>
-
 call plug#begin("c:/Users/Willians/AppData/Local/nvim-data/site/plugged")
 
 Plug 'vim-airline/vim-airline'
