@@ -5,6 +5,8 @@ imap jk <ESC>
 set number
 set relativenumber
 
+tnoremap <Esc> <C-\><C-n>
+
 set nowrap
 set formatoptions-=t
 
