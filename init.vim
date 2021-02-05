@@ -59,6 +59,11 @@ let g:gruvbox_invert_selection='0'
 colorscheme gruvbox
 set background=dark
 
+" Dart
+let g:dart_style_guide = 2
+let g:dart_format_on_save = 1
+let dart_html_in_string=v:true
+
 " c++ syntax highlighting
 let g:cpp_class_scope_highlight = 1
 let g:cpp_member_variable_highlight = 1
