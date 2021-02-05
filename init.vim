@@ -98,6 +98,7 @@ let g:incsearch#auto_nohlsearch = 1
 " GitGutter 
 nmap ) <Plug>(GitGutterNextHunk)
 nmap ( <Plug>(GitGutterPrevHunk)
+nmap <leader>gp <Plug>(GitGutterStageHunk)
 let g:gitgutter_enabled = 1
 set updatetime=250
 
