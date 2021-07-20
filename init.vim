@@ -34,9 +34,6 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'stsewd/fzf-checkout.vim'
 
-" C/C++
-Plug 'jackguo380/vim-lsp-cxx-highlight'
-
 " Dart
 Plug 'dart-lang/dart-vim-plugin'
 
@@ -64,15 +61,6 @@ let g:dart_style_guide = 2
 let g:dart_format_on_save = 1
 let dart_html_in_string=v:true
 
-" c++ syntax highlighting
-let g:cpp_class_scope_highlight = 1
-let g:cpp_member_variable_highlight = 1
-let g:cpp_class_decl_highlight = 1
-
-" c++ linting
-let g:syntastic_cpp_checkers = ['cpplint']
-let g:syntastic_c_checkers = ['cpplint']
-let g:syntastic_cpp_cpplint_exec = 'cpplint'
 " The following two lines are optional. Configure it to your liking!
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
