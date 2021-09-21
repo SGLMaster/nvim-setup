@@ -16,7 +16,11 @@ set tabstop=2
 set softtabstop=2
 set shiftwidth=2
 
-call plug#begin("c:/Users/Willians/AppData/Local/nvim-data/site/plugged")
+if has("win64") || has("win32") || has("win16")
+  call plug#begin("c:/Users/Willians/AppData/Local/nvim-data/site/plugged")
+else
+  call plug#begin("~/.local/share/nvim/plugged/")
+endif
 
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'  " Temas para airline
