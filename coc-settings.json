@@ -5,10 +5,6 @@
   "typescript.preferences.quoteStyle": "single",
   "typescript.suggest.autoImports": true,
   "languageserver": {
-    "kotlin": {
-      "command": "C:\\Users\\Willians\\AppData\\Local\\nvim-data\\lsp\\kotlin\\server\\bin\\kotlin-language-server.bat",
-      "filetypes": ["kotlin"]
-    },
     "ccls": {
       "command": "ccls",
       "filetypes": ["c", "cc", "cpp", "c++", "objc", "objcpp"],
