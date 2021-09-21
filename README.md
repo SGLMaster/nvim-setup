@@ -2,11 +2,11 @@
 
 1.- Clone init.vim and coc-settings.json to ~/.config/nvim
 
-2.- Create dirs ~/.local/share/nvim/autoload and ~/.local/share/nvim/plugged.
+2.- Create dir ~/.local/share/nvim/plugged.
 
-3.- Download plug.vim to the autoload dir.
+3.- Install 'vim-plug' from https://github.com/junegunn/vim-plug
 
-4.- Start nvim and run :PlugInstall to install de Plugins.
+4.- Start nvim and run :PlugInstall to install the Plugins.
 
 5.- Install ripgrep('rg' tool) to enable advanced search in files 
 
