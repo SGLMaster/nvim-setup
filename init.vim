@@ -101,6 +101,8 @@ nmap <leader>gs :G<CR>
 
 " COC COC COC COC COC COC COC COC COC COC  
 
+let g:coc_global_extensions = ['coc-json', 'coc-flutter']
+
 " TextEdit might fail if hidden is not set.
 set hidden
 
