@@ -7,21 +7,18 @@
   "languageserver": {
     "ccls": {
       "command": "ccls",
-      "filetypes": ["c", "cc", "cpp", "c++", "objc", "objcpp"],
-      "rootPatterns": [".ccls", "compile_commands.json"],
+      "diagnostics": {
+        "onChange": 1
+      },
+      "filetypes": ["c", "cpp", "cuda", "objc", "objcpp"],
+      "rootPatterns": [".ccls-root", "compile_commands.json"],
       "initializationOptions": {
         "cache": {
-          "directory": "/tmp/ccls"
+          "directory": ".ccls-cache"
         },
         "client": {
           "snippetSupport": true
-        },
-        "index": {
-          "onChange": true
-
-        },
-        // This is mandatory!
-        "highlight": { "lsRanges" : true  }
+        }
       }
     }
   },
